@@ -1,11 +1,7 @@
 "use client";
-
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import styles from "../styles";
-
-
-
 const ExploreCard = ({ id, imgUrl, index, active, handleClick, title }) => (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
@@ -45,5 +41,4 @@ const ExploreCard = ({ id, imgUrl, index, active, handleClick, title }) => (
     )}
     </motion.div>
 );
-
 export default ExploreCard;
