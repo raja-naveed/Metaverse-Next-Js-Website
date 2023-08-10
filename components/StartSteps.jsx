@@ -1,4 +1,5 @@
 import styles from '../styles';
+
 const StartSteps = ({ number, text }) => (
   <div className={`${styles.flexCenter} flex-row`}>
     <div
@@ -13,5 +14,4 @@ const StartSteps = ({ number, text }) => (
     </p>
   </div>
 );
-
 export default StartSteps;
